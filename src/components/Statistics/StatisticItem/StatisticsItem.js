@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 
 import css from '../Statistic.module.css'
-import {getRandomHexColor} from './randomHexColor'
+import {getRandomHexColor} from '../../../utils/randomHexColor'
 
 export const StatisticsItem = ({label, percentage}) => {
   return <li className={css.item} style={{backgroundColor: getRandomHexColor()}}>
