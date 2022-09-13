@@ -1,0 +1,31 @@
+.transactionHistory{
+    width: 800px;
+    /* align-content: center; */
+}
+
+.header{
+    background-color: #11e6e6;
+}
+
+.headerItem {
+    /* border: 1px solid black; */
+    padding: 10px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.table1{
+    background-color: white;
+   font-size: 24px;
+   padding: 20px 0;
+    color: gray;
+    text-transform: capitalize;
+}
+
+.table2 {
+    background-color: rgba(255, 255, 255, 0.694);
+    font-size: 24px;
+    padding: 20px 0;
+    color: gray;
+    text-transform: capitalize;
+}
