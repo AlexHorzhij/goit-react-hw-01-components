@@ -5,7 +5,6 @@ import css from './TransactionHistory.module.css'
 import { TransactionHistoryItem } from './TransactionHistoryItem/TransactionHistoryItem'
 
 export function TransactionHistory({items}) {
-    console.log('item', items)
     return <table className={css.transactionHistory}>
   <thead className={css.header}>
     <tr >
@@ -22,5 +21,7 @@ export function TransactionHistory({items}) {
 }
 
 TransactionHistoryItem.propTypes = {
-    id: PropTypes.string,
+  items: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+  })
 }
