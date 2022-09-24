@@ -15,6 +15,7 @@ export const Statistic = ({title, items}) => {
 }
 
 StatisticsItem.propTypes = {
+  title: PropTypes.string,
   items: PropTypes.shape({
     id: PropTypes.string.isRequired,
     label: PropTypes.string.isRequired,
